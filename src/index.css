@@ -37,11 +37,4 @@ body {
     background-color: var(--background);
     color: var(--font);
     font-size: 17px;
-    font-family: Hack, monospace;
-    background-image: url('../images/background.webp');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    overflow: hidden;
 }

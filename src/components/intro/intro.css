@@ -1,0 +1,20 @@
+#intro-content {
+    width: 60%;
+}
+
+#intro-content h2 {
+    margin-bottom: 1%;
+    font-size: 1.7rem;
+}
+
+#intro-content p {
+    margin-bottom: 1%;
+    font-size: 1.1rem;
+}
+
+#intro-social {
+    width: 35px;
+    height: 35px;
+}
+
+

@@ -13,6 +13,7 @@ export async function status() {
             document.getElementById('server-dot')!.classList.add('offline')
         }
     } catch {
+        document.getElementById('server-address')!.innerText = 'mc.murof.me'
         document.getElementById('server-dot')!.classList.add('offline')
     }
 }

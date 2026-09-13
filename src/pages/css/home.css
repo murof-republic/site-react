@@ -1,0 +1,18 @@
+main::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url('../../assets/images/background.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    margin-inline: 5%;
+}

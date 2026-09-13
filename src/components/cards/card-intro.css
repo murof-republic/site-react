@@ -1,0 +1,35 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 75%;
+    margin-top: 4%;
+    font-size: 1rem;
+}
+
+.content-cards {
+    display: block;
+    background-color: var(--background);
+    border: 1px solid var(--contorno);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 5%;
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+}
+
+.content-cards:hover {
+    transform: scale(1.05);
+    border: 1px solid var(--principal);
+    cursor: pointer;
+}
+
+.icon-user {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}

@@ -24,7 +24,7 @@ function Navbar() {
                 <span id="server-address"></span>
             </div>
         </nav>
-    )
+    )  
 }
 
 export default Navbar
