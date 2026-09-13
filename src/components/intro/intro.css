@@ -3,12 +3,12 @@
 }
 
 #intro-content h2 {
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     font-size: 1.7rem;
 }
 
 #intro-content p {
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     font-size: 1.1rem;
 }
 
@@ -17,4 +17,17 @@
     height: 35px;
 }
 
+@media (max-width: 767px) {
+    #intro-content {
+        width: 100%;
+        font-size: 1rem;
+    }
 
+    #intro-content h2 {
+        font-size: 1.4rem;
+    }
+
+    #intro-content p {
+        font-size: 1rem;
+    }
+}

@@ -8,6 +8,7 @@ function Home() {
     return(
         <main>
             <article>
+                <div id="background"></div>
                 <Intro/>
                 <section className="cards">
                     <CardIntro
