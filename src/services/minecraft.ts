@@ -12,7 +12,7 @@ export async function status() {
         } else {
             document.getElementById('server-dot')!.classList.add('offline')
         }
-    } catch (erro) {
-        console.log('Erro ao buscar dados:', erro)
+    } catch {
+        document.getElementById('server-dot')!.classList.add('offline')
     }
 }
