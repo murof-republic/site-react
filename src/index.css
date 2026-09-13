@@ -38,3 +38,10 @@ body {
     color: var(--font);
     font-size: 17px;
 }
+
+@media (max-width: 767px) {
+    main {
+        margin: 10px;
+    }
+
+}
