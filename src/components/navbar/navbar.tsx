@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { status } from '../../services/minecraft'
 import './navbar.css'
 
@@ -13,10 +13,10 @@ function Navbar() {
             <h1>Murof</h1>
 
             <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/artes">Artes</Link></li>
-                <li><Link to="/projetos">Projetos</Link></li>
-                <li><Link to="/apoiadores">Apoiadores</Link></li>
+                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="/artes">Artes</NavLink></li>
+                <li><NavLink to="/projetos">Projetos</NavLink></li>
+                <li><NavLink to="/apoiadores">Apoiadores</NavLink></li>
             </ul>
 
             <div id="server-widget">
