@@ -35,8 +35,7 @@ function Home() {
                         imagem={Snuf}
                         nome="Snuf"
                         conteudo={<>
-                                Adicione o Snuf ao seu servidor!<br/>
-                                Um bot feito para comunidades no Discord...</>}
+                                Tenha ferramentas para administração, interação e entretenimento, tudo em um só lugar.</>}
                         link="https://discord.com/discovery/applications/1370119246276726944"
                     />
                 </section>
